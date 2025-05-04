@@ -1,0 +1,97 @@
+.margin-top {
+    margin-top : 20px;
+}
+
+.criminal-table {
+  color: white;
+}
+.criminal-table tbody tr:hover {
+    background-color: lightcoral;
+  }
+
+
+.court-table {
+    color: white;
+  }
+
+.court-table tbody tr:hover {
+      background-color: rgb(33, 232, 232);
+    }
+
+.fir-table {
+     cursor: pointer;
+     transition: background-color 0.3s;
+      color: white;
+    }
+.fir-table tbody tr:hover {
+        background-color: rgb(78, 237, 173);
+      }
+.card-item {
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+.card-item:hover {
+        background-color: #f8f9fa;
+      }
+
+      .image-container
+      {
+        
+        height: 70vh;
+        width:min-content
+      }
+.app
+{
+  display: flex;
+  height: max-content;
+}
+
+.bg-image {
+  background-image: url("../src/Images/login-page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.register-bg {
+  background-image: url("../src/Images/register-page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+.login-card {
+  width: 73%;
+  margin: auto;
+  position: relative;
+  right: 75%;
+  top: 131%;
+  height: 100%;
+  transform: translateY(-50%);
+  opacity: 93%;
+}
+
+.register-card
+{
+  width: 73%;
+  margin: auto;
+  position: relative;
+  left: 55%;
+  top: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+  opacity: 95%;
+}
+
